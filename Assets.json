@@ -1,0 +1,134 @@
+﻿[
+  {
+    "inputs": [
+      "source/bower_components/bootstrap/dist/js/bootstrap.js"
+    ],
+    "output": "Scripts/bootstrap/bootstrap.js"
+  },
+  {
+    "inputs": [
+      "source/bower_components/Stapel/js/jquery.stapel.js"
+    ],
+    "output": "Scripts/stapel/jquery.stapel.js"
+  },
+  {
+    "inputs": [
+      "source/bower_components/Stapel/js/modernizr.custom.63321.js"
+    ],
+    "output": "Scripts/stapel/modernizr.custom.63321.js"
+  },
+  {
+    "inputs": [
+      "source/bower_components/Stapel/css/stapel.css"
+    ],
+    "output": "Styles/stapel/stapel.css"
+  },
+  {
+    "inputs": [
+      "source/site-default.less"
+    ],
+    "output": "Styles/site-default.css"
+  },
+  {
+    "inputs": [
+      "source/site-cerulean.less"
+    ],
+    "output": "Styles/site-cerulean.css"
+  },
+  {
+    "inputs": [
+      "source/site-cosmo.less"
+    ],
+    "output": "Styles/site-cosmo.css"
+  },
+  {
+    "inputs": [
+      "source/site-cyborg.less"
+    ],
+    "output": "Styles/site-cyborg.css"
+  },
+  {
+    "inputs": [
+      "source/site-darkly.less"
+    ],
+    "output": "Styles/site-darkly.css"
+  },
+  {
+    "inputs": [
+      "source/site-flatly.less"
+    ],
+    "output": "Styles/site-flatly.css"
+  },
+  {
+    "inputs": [
+      "source/site-journal.less"
+    ],
+    "output": "Styles/site-journal.css"
+  },
+  {
+    "inputs": [
+      "source/site-lumen.less"
+    ],
+    "output": "Styles/site-lumen.css"
+  },
+  {
+    "inputs": [
+      "source/site-paper.less"
+    ],
+    "output": "Styles/site-paper.css"
+  },
+  {
+    "inputs": [
+      "source/site-readable.less"
+    ],
+    "output": "Styles/site-readable.css"
+  },
+  {
+    "inputs": [
+      "source/site-rtl.less"
+    ],
+    "output": "Styles/site-rtl.css"
+  },
+  {
+    "inputs": [
+      "source/site-sandstone.less"
+    ],
+    "output": "Styles/site-sandstone.css"
+  },
+  {
+    "inputs": [
+      "source/site-simplex.less"
+    ],
+    "output": "Styles/site-simplex.css"
+  },
+  {
+    "inputs": [
+      "source/site-slate.less"
+    ],
+    "output": "Styles/site-slate.css"
+  },
+  {
+    "inputs": [
+      "source/site-spacelab.less"
+    ],
+    "output": "Styles/site-spacelab.css"
+  },
+  {
+    "inputs": [
+      "source/site-superhero.less"
+    ],
+    "output": "Styles/site-superhero.css"
+  },
+  {
+    "inputs": [
+      "source/site-united.less"
+    ],
+    "output": "Styles/site-united.css"
+  },
+  {
+    "inputs": [
+      "source/site-yeti.less"
+    ],
+    "output": "Styles/site-yeti.css"
+  }
+]

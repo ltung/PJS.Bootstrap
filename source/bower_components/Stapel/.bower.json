@@ -1,0 +1,14 @@
+{
+  "name": "Stapel",
+  "homepage": "https://github.com/codrops/Stapel",
+  "_release": "07fc860210",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "07fc86021048f407415f28e9fc126c7ee73f9d88"
+  },
+  "_source": "https://github.com/codrops/Stapel.git",
+  "_target": "*",
+  "_originalSource": "Stapel",
+  "_direct": true
+}
