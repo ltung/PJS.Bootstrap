@@ -15,120 +15,120 @@
     "inputs": [
       "source/bower_components/Stapel/js/modernizr.custom.63321.js"
     ],
-    "output": "Scripts/stapel/modernizr.custom.63321.js"
+    "output": "Scripts/css/stapel/modernizr.custom.63321.js"
   },
   {
     "inputs": [
       "source/bower_components/Stapel/css/stapel.css"
     ],
-    "output": "Styles/stapel/stapel.css"
+    "output": "Styles/css/stapel/stapel.css"
   },
   {
     "inputs": [
       "source/site-default.less"
     ],
-    "output": "Styles/site-default.css"
+    "output": "Styles/css/site-default.css"
   },
   {
     "inputs": [
       "source/site-cerulean.less"
     ],
-    "output": "Styles/site-cerulean.css"
+    "output": "Styles/css/site-cerulean.css"
   },
   {
     "inputs": [
       "source/site-cosmo.less"
     ],
-    "output": "Styles/site-cosmo.css"
+    "output": "Styles/css/site-cosmo.css"
   },
   {
     "inputs": [
       "source/site-cyborg.less"
     ],
-    "output": "Styles/site-cyborg.css"
+    "output": "Styles/css/site-cyborg.css"
   },
   {
     "inputs": [
       "source/site-darkly.less"
     ],
-    "output": "Styles/site-darkly.css"
+    "output": "Styles/css/site-darkly.css"
   },
   {
     "inputs": [
       "source/site-flatly.less"
     ],
-    "output": "Styles/site-flatly.css"
+    "output": "Styles/css/site-flatly.css"
   },
   {
     "inputs": [
       "source/site-journal.less"
     ],
-    "output": "Styles/site-journal.css"
+    "output": "Styles/css/site-journal.css"
   },
   {
     "inputs": [
       "source/site-lumen.less"
     ],
-    "output": "Styles/site-lumen.css"
+    "output": "Styles/css/site-lumen.css"
   },
   {
     "inputs": [
       "source/site-paper.less"
     ],
-    "output": "Styles/site-paper.css"
+    "output": "Styles/css/site-paper.css"
   },
   {
     "inputs": [
       "source/site-readable.less"
     ],
-    "output": "Styles/site-readable.css"
+    "output": "Styles/css/site-readable.css"
   },
   {
     "inputs": [
       "source/site-rtl.less"
     ],
-    "output": "Styles/site-rtl.css"
+    "output": "Styles/css/site-rtl.css"
   },
   {
     "inputs": [
       "source/site-sandstone.less"
     ],
-    "output": "Styles/site-sandstone.css"
+    "output": "Styles/css/site-sandstone.css"
   },
   {
     "inputs": [
       "source/site-simplex.less"
     ],
-    "output": "Styles/site-simplex.css"
+    "output": "Styles/css/site-simplex.css"
   },
   {
     "inputs": [
       "source/site-slate.less"
     ],
-    "output": "Styles/site-slate.css"
+    "output": "Styles/css/site-slate.css"
   },
   {
     "inputs": [
       "source/site-spacelab.less"
     ],
-    "output": "Styles/site-spacelab.css"
+    "output": "Styles/css/site-spacelab.css"
   },
   {
     "inputs": [
       "source/site-superhero.less"
     ],
-    "output": "Styles/site-superhero.css"
+    "output": "Styles/css/site-superhero.css"
   },
   {
     "inputs": [
       "source/site-united.less"
     ],
-    "output": "Styles/site-united.css"
+    "output": "Styles/css/site-united.css"
   },
   {
     "inputs": [
       "source/site-yeti.less"
     ],
-    "output": "Styles/site-yeti.css"
+    "output": "Styles/css/site-yeti.css"
   }
 ]

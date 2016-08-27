@@ -1,7 +1,7 @@
 using System;
 using System.Web.Mvc;
 
-namespace PJS.Bootstrap.Gravatar.Html {
+namespace Theme.Bootswatch.Gravatar.Html {
 
     /// <summary>
     /// UrlHelper extension methods for retrieving Gravatar avatar images.

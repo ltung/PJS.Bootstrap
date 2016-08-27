@@ -10,9 +10,9 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PJS.Bootstrap</RootNamespace>
-    <AssemblyName>PJS.Bootstrap</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>Theme.Bootswatch</RootNamespace>
+    <AssemblyName>Theme.Bootswatch</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -49,11 +49,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.ComponentModel.DataAnnotations">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    <Reference Include="Orchard.Framework, Version=1.9.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Orchard\bin\Debug\Orchard.Framework.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
@@ -64,53 +64,51 @@
       <HintPath>..\..\..\..\lib\aspnetmvc\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Configuration" />
+    <Reference Include="System.XML" />
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\apple-touch-icon.png" />
     <Content Include="Content\favicon.ico" />
-    <Content Include="Content\prettyPhoto\dark_rounded\btnNext.png" />
-    <Content Include="Content\prettyPhoto\dark_rounded\btnPrevious.png" />
-    <Content Include="Content\prettyPhoto\dark_rounded\contentPattern.png" />
-    <Content Include="Content\prettyPhoto\dark_rounded\default_thumbnail.gif" />
-    <Content Include="Content\prettyPhoto\dark_rounded\loader.gif" />
-    <Content Include="Content\prettyPhoto\dark_rounded\sprite.png" />
-    <Content Include="Content\prettyPhoto\dark_square\btnNext.png" />
-    <Content Include="Content\prettyPhoto\dark_square\btnPrevious.png" />
-    <Content Include="Content\prettyPhoto\dark_square\contentPattern.png" />
-    <Content Include="Content\prettyPhoto\dark_square\default_thumbnail.gif" />
-    <Content Include="Content\prettyPhoto\dark_square\loader.gif" />
-    <Content Include="Content\prettyPhoto\dark_square\sprite.png" />
-    <Content Include="Content\prettyPhoto\default\default_thumb.png" />
-    <Content Include="Content\prettyPhoto\default\loader.gif" />
-    <Content Include="Content\prettyPhoto\default\sprite.png" />
-    <Content Include="Content\prettyPhoto\default\sprite_next.png" />
-    <Content Include="Content\prettyPhoto\default\sprite_prev.png" />
-    <Content Include="Content\prettyPhoto\default\sprite_x.png" />
-    <Content Include="Content\prettyPhoto\default\sprite_y.png" />
-    <Content Include="Content\prettyPhoto\facebook\btnNext.png" />
-    <Content Include="Content\prettyPhoto\facebook\btnPrevious.png" />
-    <Content Include="Content\prettyPhoto\facebook\contentPatternBottom.png" />
-    <Content Include="Content\prettyPhoto\facebook\contentPatternLeft.png" />
-    <Content Include="Content\prettyPhoto\facebook\contentPatternRight.png" />
-    <Content Include="Content\prettyPhoto\facebook\contentPatternTop.png" />
-    <Content Include="Content\prettyPhoto\facebook\default_thumbnail.gif" />
-    <Content Include="Content\prettyPhoto\facebook\loader.gif" />
-    <Content Include="Content\prettyPhoto\facebook\sprite.png" />
-    <Content Include="Content\prettyPhoto\light_rounded\btnNext.png" />
-    <Content Include="Content\prettyPhoto\light_rounded\btnPrevious.png" />
-    <Content Include="Content\prettyPhoto\light_rounded\default_thumbnail.gif" />
-    <Content Include="Content\prettyPhoto\light_rounded\loader.gif" />
-    <Content Include="Content\prettyPhoto\light_rounded\sprite.png" />
-    <Content Include="Content\prettyPhoto\light_square\btnNext.png" />
-    <Content Include="Content\prettyPhoto\light_square\btnPrevious.png" />
-    <Content Include="Content\prettyPhoto\light_square\default_thumbnail.gif" />
-    <Content Include="Content\prettyPhoto\light_square\loader.gif" />
-    <Content Include="Content\prettyPhoto\light_square\sprite.png" />
+    <Content Include="Styles\images\dark_rounded\btnNext.png" />
+    <Content Include="Styles\images\dark_rounded\btnPrevious.png" />
+    <Content Include="Styles\images\dark_rounded\contentPattern.png" />
+    <Content Include="Styles\images\dark_rounded\default_thumbnail.gif" />
+    <Content Include="Styles\images\dark_rounded\loader.gif" />
+    <Content Include="Styles\images\dark_rounded\sprite.png" />
+    <Content Include="Styles\images\dark_square\btnNext.png" />
+    <Content Include="Styles\images\dark_square\btnPrevious.png" />
+    <Content Include="Styles\images\dark_square\contentPattern.png" />
+    <Content Include="Styles\images\dark_square\default_thumbnail.gif" />
+    <Content Include="Styles\images\dark_square\loader.gif" />
+    <Content Include="Styles\images\dark_square\sprite.png" />
+    <Content Include="Styles\images\default\default_thumb.png" />
+    <Content Include="Styles\images\default\loader.gif" />
+    <Content Include="Styles\images\default\sprite.png" />
+    <Content Include="Styles\images\default\sprite_next.png" />
+    <Content Include="Styles\images\default\sprite_prev.png" />
+    <Content Include="Styles\images\default\sprite_x.png" />
+    <Content Include="Styles\images\default\sprite_y.png" />
+    <Content Include="Styles\images\facebook\btnNext.png" />
+    <Content Include="Styles\images\facebook\btnPrevious.png" />
+    <Content Include="Styles\images\facebook\contentPatternBottom.png" />
+    <Content Include="Styles\images\facebook\contentPatternLeft.png" />
+    <Content Include="Styles\images\facebook\contentPatternRight.png" />
+    <Content Include="Styles\images\facebook\contentPatternTop.png" />
+    <Content Include="Styles\images\facebook\default_thumbnail.gif" />
+    <Content Include="Styles\images\facebook\loader.gif" />
+    <Content Include="Styles\images\facebook\sprite.png" />
+    <Content Include="Styles\images\light_rounded\btnNext.png" />
+    <Content Include="Styles\images\light_rounded\btnPrevious.png" />
+    <Content Include="Styles\images\light_rounded\default_thumbnail.gif" />
+    <Content Include="Styles\images\light_rounded\loader.gif" />
+    <Content Include="Styles\images\light_rounded\sprite.png" />
+    <Content Include="Styles\images\light_square\btnNext.png" />
+    <Content Include="Styles\images\light_square\btnPrevious.png" />
+    <Content Include="Styles\images\light_square\default_thumbnail.gif" />
+    <Content Include="Styles\images\light_square\loader.gif" />
+    <Content Include="Styles\images\light_square\sprite.png" />
     <Content Include="Content\swatches\cerulean_th.png" />
     <Content Include="Content\swatches\cosmo_th.png" />
     <Content Include="Content\swatches\cyborg_th.png" />
@@ -137,47 +135,47 @@
     <Content Include="Scripts\stapel\jquery.stapel.min.js" />
     <Content Include="Scripts\stapel\modernizr.custom.63321.js" />
     <Content Include="Scripts\stapel\modernizr.custom.63321.min.js" />
-    <Content Include="Styles\bootstrap\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Styles\font-awesome\fonts\fontawesome-webfont.svg" />
-    <Content Include="Styles\prettyPhoto\prettyPhoto.css" />
-    <Content Include="Styles\site-cerulean.css" />
-    <Content Include="Styles\site-cerulean.min.css" />
-    <Content Include="Styles\site-cosmo.css" />
-    <Content Include="Styles\site-cosmo.min.css" />
-    <Content Include="Styles\site-cyborg.css" />
-    <Content Include="Styles\site-cyborg.min.css" />
-    <Content Include="Styles\site-darkly.css" />
-    <Content Include="Styles\site-darkly.min.css" />
-    <Content Include="Styles\site-default.css" />
-    <Content Include="Styles\site-default.min.css" />
-    <Content Include="Styles\site-flatly.css" />
-    <Content Include="Styles\site-flatly.min.css" />
-    <Content Include="Styles\site-journal.css" />
-    <Content Include="Styles\site-journal.min.css" />
-    <Content Include="Styles\site-lumen.css" />
-    <Content Include="Styles\site-lumen.min.css" />
-    <Content Include="Styles\site-paper.css" />
-    <Content Include="Styles\site-paper.min.css" />
-    <Content Include="Styles\site-readable.css" />
-    <Content Include="Styles\site-readable.min.css" />
-    <Content Include="Styles\site-rtl.css" />
-    <Content Include="Styles\site-rtl.min.css" />
-    <Content Include="Styles\site-sandstone.css" />
-    <Content Include="Styles\site-sandstone.min.css" />
-    <Content Include="Styles\site-simplex.css" />
-    <Content Include="Styles\site-simplex.min.css" />
-    <Content Include="Styles\site-slate.css" />
-    <Content Include="Styles\site-slate.min.css" />
-    <Content Include="Styles\site-spacelab.css" />
-    <Content Include="Styles\site-spacelab.min.css" />
-    <Content Include="Styles\site-superhero.css" />
-    <Content Include="Styles\site-superhero.min.css" />
-    <Content Include="Styles\site-united.css" />
-    <Content Include="Styles\site-united.min.css" />
-    <Content Include="Styles\site-yeti.css" />
-    <Content Include="Styles\site-yeti.min.css" />
-    <Content Include="Styles\stapel\stapel.css" />
-    <Content Include="Styles\stapel\stapel.min.css" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Styles\fonts\fontawesome-webfont.svg" />
+    <Content Include="Styles\css\prettyPhoto.css" />
+    <Content Include="Styles\css\site-cerulean.css" />
+    <Content Include="Styles\css\site-cerulean.min.css" />
+    <Content Include="Styles\css\site-cosmo.css" />
+    <Content Include="Styles\css\site-cosmo.min.css" />
+    <Content Include="Styles\css\site-cyborg.css" />
+    <Content Include="Styles\css\site-cyborg.min.css" />
+    <Content Include="Styles\css\site-darkly.css" />
+    <Content Include="Styles\css\site-darkly.min.css" />
+    <Content Include="Styles\css\site-default.css" />
+    <Content Include="Styles\css\site-default.min.css" />
+    <Content Include="Styles\css\site-flatly.css" />
+    <Content Include="Styles\css\site-flatly.min.css" />
+    <Content Include="Styles\css\site-journal.css" />
+    <Content Include="Styles\css\site-journal.min.css" />
+    <Content Include="Styles\css\site-lumen.css" />
+    <Content Include="Styles\css\site-lumen.min.css" />
+    <Content Include="Styles\css\site-paper.css" />
+    <Content Include="Styles\css\site-paper.min.css" />
+    <Content Include="Styles\css\site-readable.css" />
+    <Content Include="Styles\css\site-readable.min.css" />
+    <Content Include="Styles\css\site-rtl.css" />
+    <Content Include="Styles\css\site-rtl.min.css" />
+    <Content Include="Styles\css\site-sandstone.css" />
+    <Content Include="Styles\css\site-sandstone.min.css" />
+    <Content Include="Styles\css\site-simplex.css" />
+    <Content Include="Styles\css\site-simplex.min.css" />
+    <Content Include="Styles\css\site-slate.css" />
+    <Content Include="Styles\css\site-slate.min.css" />
+    <Content Include="Styles\css\site-spacelab.css" />
+    <Content Include="Styles\css\site-spacelab.min.css" />
+    <Content Include="Styles\css\site-superhero.css" />
+    <Content Include="Styles\css\site-superhero.min.css" />
+    <Content Include="Styles\css\site-united.css" />
+    <Content Include="Styles\css\site-united.min.css" />
+    <Content Include="Styles\css\site-yeti.css" />
+    <Content Include="Styles\css\site-yeti.min.css" />
+    <Content Include="Styles\css\stapel.css" />
+    <Content Include="Styles\css\stapel.min.css" />
     <Content Include="Web.config" />
     <Content Include="Scripts\Web.config" />
     <Content Include="Styles\Web.config" />
@@ -187,29 +185,17 @@
     <Content Include="Placement.info" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Orchard\Orchard.Framework.csproj">
-      <Project>{2D1D92BB-4555-4CBE-8D0E-63563D6CE4C6}</Project>
-      <Name>Orchard.Framework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Orchard.Web\Core\Orchard.Core.csproj">
-      <Project>{9916839C-39FC-4CEB-A5AF-89CA7E87119F}</Project>
-      <Name>Orchard.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Orchard.Web\Modules\Orchard.Comments\Orchard.Comments.csproj">
-      <Project>{14c049fd-b35b-415a-a824-87f26b26e7fd}</Project>
-      <Name>Orchard.Comments</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Orchard.Web\Modules\Orchard.Search\Orchard.Search.csproj">
-      <Project>{4be4eb01-ac56-4048-924e-2ca77f509aba}</Project>
-      <Name>Orchard.Search</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Orchard.Web\Modules\Orchard.Tags\Orchard.Tags.csproj">
-      <Project>{5d0f00f0-26c9-4785-ad61-b85710c60eb0}</Project>
-      <Name>Orchard.Tags</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\Orchard.Web\Modules\Orchard.Users\Orchard.Users.csproj">
       <Project>{79aed36e-abd0-4747-93d3-8722b042454b}</Project>
       <Name>Orchard.Users</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Orchard.Core.csproj">
+      <Project>{9916839c-39fc-4ceb-a5af-89ca7e87119f}</Project>
+      <Name>Orchard.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\Orchard.Comments\Orchard.Comments.csproj">
+      <Project>{14c049fd-b35b-415a-a824-87f26b26e7fd}</Project>
+      <Name>Orchard.Comments</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -219,23 +205,21 @@
     <Compile Include="Gravatar\GrofileInfo.cs" />
     <Compile Include="Gravatar\Html\HtmlHelperExtensions.cs" />
     <Compile Include="Gravatar\Html\UrlHelperExtensions.cs" />
-    <Compile Include="Handlers\BootstrapThemeSettingsPartHandler.cs" />
+    <Compile Include="Handlers\BootswatchThemeSettingsPartHandler.cs" />
     <Compile Include="MainMenu.cs" />
-    <Compile Include="Models\BootstrapThemeSettingsPart.cs" />
+    <Compile Include="Models\BootswatchThemeSettingsPart.cs" />
     <Compile Include="ResourceManifest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\EditorTemplates\Parts.Comment.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Styles\font-awesome\fonts\fontawesome-webfont.eot" />
-    <None Include="Styles\font-awesome\fonts\fontawesome-webfont.ttf" />
-    <None Include="Styles\font-awesome\fonts\fontawesome-webfont.woff" />
-    <None Include="Styles\font-awesome\fonts\fontawesome-webfont.woff2" />
-    <None Include="Styles\font-awesome\fonts\FontAwesome.otf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\EditorTemplates\Parts\BootstrapThemeSettings.cshtml" />
+    <None Include="Styles\fonts\fontawesome-webfont.eot" />
+    <None Include="Styles\fonts\fontawesome-webfont.ttf" />
+    <None Include="Styles\fonts\fontawesome-webfont.woff" />
+    <None Include="Styles\fonts\fontawesome-webfont.woff2" />
+    <None Include="Styles\fonts\FontAwesome.otf" />
+    <Content Include="Views\EditorTemplates\Parts\BootswatchThemeSettings.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Orchard.Users\Account\AccessDenied.cshtml" />
@@ -303,10 +287,10 @@
     <Content Include="Views\Parts.ZenGallery.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Styles\bootstrap\fonts\glyphicons-halflings-regular.eot" />
-    <None Include="Styles\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
-    <None Include="Styles\bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <None Include="Styles\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Styles\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Styles\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Styles\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Styles\fonts\glyphicons-halflings-regular.woff2" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets.json" />

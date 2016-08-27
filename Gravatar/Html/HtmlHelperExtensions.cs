@@ -2,7 +2,7 @@ using System;
 using System.Web.Mvc;
 using System.Collections.Generic;
 
-namespace PJS.Bootstrap.Gravatar.Html {
+namespace Theme.Bootswatch.Gravatar.Html {
     /// <summary>
     /// MVC HtmlHelper extension methods for rendering Gravatar avatar images.
     /// </summary>

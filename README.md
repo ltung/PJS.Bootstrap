@@ -1,14 +1,16 @@
-﻿# PJS.Bootstrap Orchard CMS Theme
+﻿# Theme.Bootswatch Orchard CMS Theme
 
 ---
 
-> Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
+> This is a clone of Theme.Bootswatch to update to the newest Bootstrap and Bootswatch. The less file structure are heavily changed since from Orchard 1.9.3, it uses gulpfile.js to transpile the .css/.js file.
+> I also use bower to download the components (Pls see source/bower.json) and try to have minimum change to .less from the components.
+
 
 ## Features
 
 - Requires Orchard 1.8 or higher
-- Bootstrap 3.3.5
-- Font Awesome 4.3.0
+- Bootstrap 3.3.7
+- Font Awesome 4.6.3
 - Bootswatch 3.x templates
 - RTL support
 - Admin panel selectable options
@@ -18,9 +20,9 @@ To automatically flip placements from right to left and vice versa (in bilingual
 
 ## Author
 
-**Philip Senechal**
+**Lawrence Tung**
 
-+ [http://philipsenechal.com](http://philipsenechal.com)
++ Philip Senechal actually.
 
 ## Copyright and license
 

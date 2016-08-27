@@ -1,7 +1,7 @@
 ﻿using Orchard.ContentManagement;
 
-namespace PJS.Bootstrap.Models {
-    public class BootstrapThemeSettingsPart : ContentPart {
+namespace Theme.Bootswatch.Models {
+    public class BootswatchThemeSettingsPart : ContentPart {
         public string Swatch {
             get { return this.Retrieve(r => r.Swatch, "default"); }
             set { this.Store(r => r.Swatch, value); }

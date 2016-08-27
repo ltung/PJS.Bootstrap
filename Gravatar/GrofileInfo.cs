@@ -4,7 +4,7 @@ using System.Text;
 using System.Xml.Linq;
 using System.Collections.Generic;
 
-namespace PJS.Bootstrap.Gravatar {
+namespace Theme.Bootswatch.Gravatar {
 
     internal static class XElementExtensions {
         public static string ElementValueOrDefault(this XElement xElement, string elementName, string defaultValue) {

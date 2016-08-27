@@ -1,5 +1,5 @@
 ﻿@using Orchard.ContentManagement;
-@using PJS.Bootstrap.Models;
+@using Theme.Bootswatch.Models;
 @functions {
     // To support the layout classifaction below. Implementing as a razor function because we can, could otherwise be a Func<string[], string, string> in the code block following.
     string CalcuClassify(string[] zoneNames, string classNamePrefix) {
@@ -11,7 +11,7 @@
 @{
     Display.Insertions();
 
-    var settings = WorkContext.CurrentSite.As<BootstrapThemeSettingsPart>();
+    var settings = WorkContext.CurrentSite.As<BootswatchThemeSettingsPart>();
 
     /* Some useful shortcuts or settings
     ***************************************************************/

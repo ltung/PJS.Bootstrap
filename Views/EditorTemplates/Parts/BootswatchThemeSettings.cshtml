@@ -1,4 +1,4 @@
-﻿@model PJS.Bootstrap.Models.BootstrapThemeSettingsPart
+﻿@model Theme.Bootswatch.Models.BootswatchThemeSettingsPart
 @using (Script.Foot()) {
     <script type="text/javascript">
         $(function () {
@@ -6,7 +6,7 @@
 
             $('.swatchContainer img').click(function () {
                 var swatch = $(this).data("swatch");
-                $('#BootstrapThemeSettings_Swatch').val(swatch);
+                $('#BootswatchThemeSettings_Swatch').val(swatch);
                 $('.swatchContainer').removeClass('active');
                 $('.' + swatch).addClass('active');
                 $('#inverseColorContainer').removeClass();
@@ -43,7 +43,7 @@
     <legend>Select a Swatch</legend>
     <div style="width: 100%">
         @{
-            var swatchPath = Href("~/Themes/PJS.Bootstrap/Content/Swatches");
+            var swatchPath = Href("~/Themes/Theme.Bootswatch/Content/Swatches");
             var folder = Request.MapPath(swatchPath);
             var swatchPattern = "*_th.png";
             var swatchFiles = Directory.EnumerateFiles(folder, swatchPattern, SearchOption.TopDirectoryOnly);

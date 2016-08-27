@@ -2,14 +2,14 @@
 using Orchard.ContentManagement;
 using Orchard.ContentManagement.Handlers;
 using Orchard.Localization;
-using PJS.Bootstrap.Models;
+using Theme.Bootswatch.Models;
 
-namespace PJS.Bootstrap.Handlers {
+namespace Theme.Bootswatch.Handlers {
     public class BootstrapThemeSettingsPartHandler : ContentHandler {
         public BootstrapThemeSettingsPartHandler() {
             T = NullLocalizer.Instance;
-            Filters.Add(new ActivatingFilter<BootstrapThemeSettingsPart>("Site"));
-            Filters.Add(new TemplateFilterForPart<BootstrapThemeSettingsPart>("BootstrapThemeSettings", "Parts/BootstrapThemeSettings", "Theme-Bootstrap"));
+            Filters.Add(new ActivatingFilter<BootswatchThemeSettingsPart>("Site"));
+            Filters.Add(new TemplateFilterForPart<BootswatchThemeSettingsPart>("BootswatchThemeSettings", "Parts/BootswatchThemeSettings", "Theme-Bootswatch"));
         }
 
         public Localizer T { get; set; }
@@ -18,7 +18,7 @@ namespace PJS.Bootstrap.Handlers {
             if (context.ContentItem.ContentType != "Site")
                 return;
             base.GetItemMetadata(context);
-            context.Metadata.EditorGroupInfo.Add(new GroupInfo(T("Theme-Bootstrap")));
+            context.Metadata.EditorGroupInfo.Add(new GroupInfo(T("Theme-Bootswatch")));
         }
     }
 }

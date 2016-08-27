@@ -4,7 +4,7 @@ using System.Text;
 using System.Xml.Linq;
 using System.Collections.Generic;
 
-namespace PJS.Bootstrap.Gravatar {
+namespace Theme.Bootswatch.Gravatar {
 
     internal interface IGrofileHelper {
         XDocument LoadXml(string uri);

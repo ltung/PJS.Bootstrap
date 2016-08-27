@@ -1,9 +1,9 @@
 ﻿@using Orchard.ContentManagement;
-@using PJS.Bootstrap.Models;
+@using Theme.Bootswatch.Models;
 @using System.Globalization;
 
 @{
-    var settings = WorkContext.CurrentSite.As<BootstrapThemeSettingsPart>();
+    var settings = WorkContext.CurrentSite.As<BootswatchThemeSettingsPart>();
     var cultureInfo = CultureInfo.GetCultureInfo(WorkContext.CurrentCulture);
 
     string title = Convert.ToString(Model.Title);

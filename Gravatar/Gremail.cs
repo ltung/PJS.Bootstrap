@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PJS.Bootstrap.Gravatar {
+namespace Theme.Bootswatch.Gravatar {
 
     internal class Gremail {
 
